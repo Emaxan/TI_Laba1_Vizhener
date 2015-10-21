@@ -1,0 +1,37 @@
+E:\Programs\VS\_TI\Laba1\Laba1\bin\Debug\Laba1.exe.config
+E:\Programs\VS\_TI\Laba1\Laba1\obj\Debug\Laba1.exe
+E:\Programs\VS\_TI\Laba1\Laba1\obj\Debug\Laba1.pdb
+E:\Programs\VS\_TI\Laba1\TI_Laba1\bin\Debug\Laba1.exe.config
+E:\Programs\VS\_TI\Laba1\TI_Laba1\obj\Debug\Laba1.exe
+E:\Programs\VS\_TI\Laba1\TI_Laba1\obj\Debug\Laba1.pdb
+E:\Programs\VS\_TI\Laba1\TI_Laba1\obj\Debug\MainWindow.baml
+E:\Programs\VS\_TI\Laba1\TI_Laba1\obj\Debug\App.baml
+E:\Programs\VS\_TI\Laba1\TI_Laba1\obj\Debug\MainWindow.g.cs
+E:\Programs\VS\_TI\Laba1\TI_Laba1\obj\Debug\App.g.cs
+E:\Programs\VS\_TI\Laba1\TI_Laba1\obj\Debug\Laba1_MarkupCompile.cache
+E:\Programs\VS\_TI\Laba1\TI_Laba1\obj\Debug\Laba1_MarkupCompile.lref
+E:\Programs\VS\_TI\Laba1\TI_Laba1\bin\Debug\Laba1.exe
+E:\Programs\VS\_TI\Laba1\TI_Laba1\bin\Debug\Laba1.pdb
+E:\Programs\VS\_TI\Laba1\TI_Laba1\obj\Debug\Properties\WindowsStyle.baml
+E:\Programs\VS\_TI\Laba1\TI_Laba1\obj\Debug\Laba1.g.resources
+E:\Programs\VS\_TI\Laba1\TI_Laba1\obj\Debug\Laba1.Properties.Resources.resources
+E:\Programs\VS\_TI\Laba1\TI_Laba1\obj\Debug\TI_Laba1.csproj.GenerateResource.Cache
+E:\Programs\VS\_TI\Laba1\TI_Laba1\obj\Debug\TI_Laba1.csprojResolveAssemblyReference.cache
+E:\Programs\VS\_TI\Laba1 — копия\TI_Laba1\bin\Debug\Laba1.exe.config
+E:\Programs\VS\_TI\Laba1 — копия\TI_Laba1\obj\Debug\Laba1.exe
+E:\Programs\VS\_TI\Laba1 — копия\TI_Laba1\obj\Debug\Laba1.pdb
+E:\Programs\VS\_TI\Laba1 — копия\TI_Laba1\bin\Debug\Laba1.exe
+E:\Programs\VS\_TI\Laba1 — копия\TI_Laba1\bin\Debug\Laba1.pdb
+E:\Programs\VS\_TI\Laba1 — копия\TI_Laba1\obj\Debug\TI_Laba1.csprojResolveAssemblyReference.cache
+E:\Programs\VS\_TI\Laba1 — копия\TI_Laba1\obj\Debug\MainWindow.baml
+E:\Programs\VS\_TI\Laba1 — копия\TI_Laba1\obj\Debug\App.baml
+E:\Programs\VS\_TI\Laba1 — копия\TI_Laba1\obj\Debug\MainWindow.g.cs
+E:\Programs\VS\_TI\Laba1 — копия\TI_Laba1\obj\Debug\App.g.cs
+E:\Programs\VS\_TI\Laba1 — копия\TI_Laba1\obj\Debug\Laba1_MarkupCompile.cache
+E:\Programs\VS\_TI\Laba1 — копия\TI_Laba1\obj\Debug\Laba1_MarkupCompile.lref
+E:\Programs\VS\_TI\Laba1 — копия\TI_Laba1\obj\Debug\Properties\WindowsStyle.baml
+E:\Programs\VS\_TI\Laba1 — копия\TI_Laba1\obj\Debug\Laba1.g.resources
+E:\Programs\VS\_TI\Laba1 — копия\TI_Laba1\obj\Debug\Laba1.Properties.Resources.resources
+E:\Programs\VS\_TI\Laba1 — копия\TI_Laba1\obj\Debug\TI_Laba1.csproj.GenerateResource.Cache
+E:\Programs\VS\_TI\Laba1\TI_Laba1\obj\Debug\DopAnaliz.baml
+E:\Programs\VS\_TI\Laba1\TI_Laba1\obj\Debug\DopAnaliz.g.cs

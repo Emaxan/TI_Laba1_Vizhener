@@ -1,0 +1,32 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" x:Name="WMain" mc:Ignorable="d" x:Class="Laba1.MainWindow"
+        Title="TI_Laba_1_Vizener" Style="{DynamicResource MainWindow}" SizeToContent="Height" WindowStartupLocation="CenterScreen" Icon="WebFormTemplate_11274.ico" Width="435" Closing="WMain_Closing">
+    <Grid>
+        <Label Margin="20,5,0,0" Content="Исходный текст:                  Язык:" HorizontalAlignment="Left" Width="205" Height="30" VerticalAlignment="Top"/>
+        <TextBox x:Name="TbMain" Margin="20,30,0,0" TextWrapping="Wrap" Height="100" VerticalAlignment="Top" HorizontalAlignment="Left" VerticalScrollBarVisibility="Auto" Background="#FF969696" Text="I am little crazy monkey which attack at down&#xD;&#xA;Я маленькая бешеная макака атакующая снизу" SelectionBrush="#FF464646" AcceptsReturn="True" Width="387" CaretBrush="Black"/>
+        <Label Margin="20,135,0,0" Content="Ключ:" HorizontalAlignment="Left" Width="310" Height="30" VerticalAlignment="Top"/>
+        <TextBox x:Name="TbKey" Margin="20,180,0,0" TextWrapping="Wrap" Height="20" VerticalAlignment="Top" HorizontalAlignment="Left" VerticalScrollBarVisibility="Auto" Background="#FF969696" Text="EmaxanЕмахан" SelectionBrush="#FF464646" AcceptsReturn="True" Width="387" CaretBrush="Black"/>
+        <Label x:Name="ExtendedKey" Margin="20,205,0,0" Content="Расширенный ключ:" HorizontalAlignment="Left" Width="380" Height="30" VerticalAlignment="Top"/>
+        <TextBox x:Name="ExtendedKeyText" Margin="20,235,0,0" Text="" HorizontalAlignment="Left" Width="387" Height="100" VerticalAlignment="Top" Background="#FF969696" IsReadOnly="True" VerticalScrollBarVisibility="Auto" IsReadOnlyCaretVisible="True" CaretBrush="Black" TextWrapping="Wrap"/>
+        <Label Margin="20,335,0,0" Content="Шифротекст:" HorizontalAlignment="Left" Width="100" Height="30" VerticalAlignment="Top"/>
+        <TextBox x:Name="TbCrypto" Margin="20,365,0,0" TextWrapping="Wrap" Height="100" VerticalAlignment="Top" HorizontalAlignment="Left" VerticalScrollBarVisibility="Auto" Background="#FF969696" SelectionBrush="#FF464646" AcceptsReturn="True" Width="387" CaretBrush="Black"/>
+        <Button x:Name="BCoding" Margin="50,480,0,10" Height="30" Content="Кодировать" Click="Coding_Click" Background="#FF969696" HorizontalAlignment="Left" Width="127" VerticalAlignment="Top"/>
+        <Button x:Name="BDecoding" Margin="250,480,0,0" Height="30" Content="Декодировать" Click="Decoding_Click" Background="#FF969696" HorizontalAlignment="Left" Width="127" VerticalAlignment="Top"/>
+        <CheckBox x:Name="Cb1" Content="Прямой" HorizontalAlignment="Left" Margin="20,160,0,0" VerticalAlignment="Top" Checked="Cb_Checked" Background="#FF969696"/>
+        <CheckBox x:Name="Cb2" Content="Прогрессивный" HorizontalAlignment="Left" Margin="100,160,0,0" VerticalAlignment="Top" Checked="Cb_Checked" Background="#FF969696"/>
+        <CheckBox x:Name="Cb3" Content="Самогенерирующийся" HorizontalAlignment="Left" Margin="230,160,20,0" VerticalAlignment="Top" Checked="Cb_Checked" Background="#FF969696"/>
+        <TextBlock x:Name="LKasiske" Text=">" HorizontalAlignment="Right" Margin="0,205,0,232" VerticalAlignment="Center" Width="12" Height="23" Background="#FF3C3C3C" MouseLeftButtonDown="BKasiske_MouseLeftButtonDown" TextAlignment="Center"/>
+        <Label Content="Тест Касиске" FontSize="25" Margin="430,10,-175,0" Width="160" Height="40" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Button x:Name="Analize" Content="Анализировать" FontSize="25" Margin="425,70,-170,0" Width="180" Height="40" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FF969696" Click="Analize_Click"/>
+        <TextBox x:Name="KasiskeText" Margin="425,130,-170,0" Text="" HorizontalAlignment="Left" Width="180" Height="40" VerticalAlignment="Top" Background="#FF969696" IsReadOnly="True" VerticalScrollBarVisibility="Auto" IsReadOnlyCaretVisible="True" CaretBrush="Black" TextWrapping="Wrap"/>
+        <TextBox x:Name="KasiskeNew" Margin="425,180,-170,0" Text="" HorizontalAlignment="Left" Width="180" Height="290" VerticalAlignment="Top" Background="#FF969696" IsReadOnly="True" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" IsReadOnlyCaretVisible="True" CaretBrush="Black" TextWrapping="Wrap"/>
+        <Button x:Name="DopAnaliz" Margin="425,480,-170,0" Content="Частотный анализ" HorizontalAlignment="Left" VerticalAlignment="Top" Width="180" Height="30" Background="#FF969696" Click="DopAnaliz_Click"/>
+        <CheckBox x:Name="CbEn" Content="English" HorizontalAlignment="Left" Margin="210,10,0,0" VerticalAlignment="Top" Checked="CbLang_Checked" Background="#FF969696"/>
+        <CheckBox x:Name="CbRu" Content="Русский" HorizontalAlignment="Left" Margin="270,10,0,0" VerticalAlignment="Top" Checked="CbLang_Checked" Background="#FF969696"/>
+        <Button x:Name="BOpen" Content="Открыть..." HorizontalAlignment="Left" Margin="340,10,0,0" Padding="-10" VerticalAlignment="Top" Width="75" Height="15" Background="#FF969696" Click="BOpen_Click"/>
+        <ProgressBar x:Name="Bar" Margin="0,520,0,0" Height="30" HorizontalAlignment="Stretch" Background="#FF969696"/>
+        <Button x:Name="BSave" Content="Сохранить..." Margin="315,345,0,0" Padding="-10" Height="15" Width="100" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FF969696" Click="BSave_Click"/>
+    </Grid>
+</Window>

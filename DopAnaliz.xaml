@@ -1,0 +1,33 @@
+﻿<Window x:Name="WMain" x:Class="Laba1.DopAnaliz"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="TI_Laba1_Chastotniy_Analiz" SizeToContent="Height" Width="530" Style="{DynamicResource MainWindow}" WindowStartupLocation="CenterScreen" Icon="WebFormTemplate_11274.ico">
+    <Grid x:Name="GMain">
+        <TextBlock x:Name="TbKey" Text="Ключ:" Margin="10,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Grid x:Name="GKey" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="90" Margin="10,20,10,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+        </Grid>
+        <TextBlock x:Name="TbSource" Text="Исходный текст:" Margin="10,110,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Button x:Name="BDecoding" Content="Декодировать" Margin="410,113,0,0" Padding="-10" Height="15" Width="100" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FF969696" Click="Decoding"/>
+        <TextBox x:Name="TbSourceText" Background="#FF969696" Height="300" Width="500" Margin="12,130,10,25" TextWrapping="Wrap"/>
+        <CheckBox x:Name="CbStraight" Content="Прямой" HorizontalAlignment="Left" Margin="229,113,0,0" VerticalAlignment="Top" Background="#FF969696" Checked="Cb_Checked"/>
+        <CheckBox x:Name="CbProgressive" Content="Прогрессивный" HorizontalAlignment="Left" Margin="298,113,0,0" VerticalAlignment="Top" Background="#FF969696" Checked="Cb_Checked"/>
+        <Label Content="Ключ:" HorizontalAlignment="Left" Margin="182,108,0,0" VerticalAlignment="Top" Height="25"/>
+    </Grid>
+</Window>
